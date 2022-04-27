@@ -1,0 +1,20 @@
+[package]
+name = "lazy_fn"
+version = "1.0.0"
+edition = "2021"
+authors = ["William Venner <william@venner.io>"]
+description = "lazy_static for functions!"
+repository = "https://github.com/WilliamVenner/steamlocate-rs"
+license = "MIT OR Apache-2.0"
+keywords = ["macro", "lazy", "static"]
+categories = ["no-std", "rust-patterns", "memory-management"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1", features = ["full"] }
+quote = "1"
+
+[dev-dependencies]
+lazy_static = "1"
