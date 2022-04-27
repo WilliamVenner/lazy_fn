@@ -1,3 +1,5 @@
+#![no_std]
+
 //! # [`lazy_static`](https://docs.rs/lazy_static) for functions!
 //!
 //! # Usage
